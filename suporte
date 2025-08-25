@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Suporte – Bíblia em Louvor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Página oficial de suporte do aplicativo Bíblia em Louvor. Contato, ajuda, dúvidas, reembolsos e exclusão de conta.">
+  <style>
+    :root{--bg:#fafafa;--card:#ffffff;--text:#111;--muted:#555;--line:#e5e5e5;--link:#0b57d0}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.45}
+    .wrap{max-width:920px;margin:0 auto;padding:24px}
+    h1{margin:8px 0 4px}
+    h2{margin:14px 0}
+    p{margin:8px 0}
+    .muted{color:var(--muted)}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:16px 0}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:720px){.grid{grid-template-columns:1fr}}
+    .small{font-size:14px}
+    .pill{display:inline-block;padding:4px 10px;border:1px solid var(--line);border-radius:999px;margin:4px 8px 0 0;background:#fff}
+    footer{margin:24px 0 8px;color:#666}
+    code{background:#f2f2f2;padding:2px 6px;border-radius:6px}
+  </style>
+
+  <!-- Dados estruturados (ajuda SEO e verificação automatizada) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Bíblia em Louvor",
+    "url": "https://bibliaemlouvor.com.br",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "suporte@bibliaemlouvor.com.br",
+      "telephone": "+55-67-99228-0040",
+      "areaServed": "BR",
+      "availableLanguage": ["Portuguese"]
+    }],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Antônio Maria Coelho, 2317",
+      "addressLocality": "Campo Grande",
+      "addressRegion": "MS",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Suporte – Bíblia em Louvor</h1>
+      <p class="muted">Canal oficial para contato, dúvidas, problemas técnicos e solicitações de dados.</p>
+    </header>
+
+    <section class="card" aria-labelledby="contato">
+      <h2 id="contato">Contato oficial</h2>
+      <p>📧 <strong>E-mail:</strong> <a href="mailto:suporte@bibliaemlouvor.com.br">suporte@bibliaemlouvor.com.br</a></p>
+      <p>☎️ <strong>Telefone:</strong> <a href="tel:+5567992280040">+55 (67) 9&nbsp;9228-0040</a> &nbsp;•&nbsp; <a href="https://wa.me/5567992280040" rel="noopener">Atendimento via WhatsApp</a></p>
+      <p>🏢 <strong>Endereço legal:</strong> Rua Antônio Maria Coelho, 2317 – Campo Grande/MS – Brasil</p>
+      <p>🧾 <strong>CNPJ (responsável):</strong> Renan Dutra Ferreira – 61.387.864/0001-00</p>
+      <p class="small muted">Horário de atendimento: seg–sex, 9h–18h (horário local). Prazo de resposta: até 48h úteis.</p>
+      <div class="small">
+        <span class="pill">Suporte técnico</span>
+        <span class="pill">Assinaturas e cobrança</span>
+        <span class="pill">Sugestões</span>
+        <span class="pill">Relatar bug</span>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="chamado">
+      <h2 id="chamado">Como abrir um chamado</h2>
+      <ol>
+        <li>Envie um e-mail para <a href="mailto:suporte@bibliaemlouvor.com.br">suporte@bibliaemlouvor.com.br</a> com assunto <strong>[Suporte] Descrição breve do problema</strong>.</li>
+        <li>No corpo do e-mail, inclua: modelo do aparelho, versão do iOS/Android, e-mail da sua conta no app e passos para reproduzir.</li>
+        <li>Se possível, anexe prints ou um vídeo curto demonstrando o ocorrido.</li>
+      </ol>
+    </section>
+
+    <section class="card" aria-labelledby="faq">
+      <h2 id="faq">FAQ rápido</h2>
+      <div class="grid">
+        <div>
+          <h3>Assinatura não liberou</h3>
+          <p>No app, toque em <em>Restaurar compras</em>. Persistindo, encaminhe o recibo da loja por e-mail para conferência.</p>
+        </div>
+        <div>
+          <h3>Áudio não toca / tela preta</h3>
+          <p>Verifique conexão, reinicie o app e tente novamente. Se continuar, informe modelo do aparelho e versão do sistema.</p>
+        </div>
+        <div>
+          <h3>Privacidade e dados</h3>
+          <p>Consulte nossos <a href="https://redufe.github.io/bibliaemlouvor-termos/termos.html" rel="noopener">Termos de Uso e Política de Privacidade</a>. Você pode solicitar cópia ou exclusão dos seus dados.</p>
+        </div>
+        <div>
+          <h3>Excluir conta</h3>
+          <p>No app: <em>Perfil &gt; Configurações &gt; Conta &gt; Excluir conta</em>. Se preferir, solicite por e-mail a exclusão definitiva.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="sbom">
+      <h2 id="sbom">SBOM (Software Bill of Materials)</h2>
+      <p>Se precisar do SBOM do aplicativo para auditoria, solicite por e-mail em <a href="mailto:suporte@bibliaemlouvor.com.br">suporte@bibliaemlouvor.com.br</a>. Opcionalmente, poderemos disponibilizar em uma URL dedicada.</p>
+      <p class="small muted">Fornecemos o SBOM mediante solicitação, visando transparência e conformidade.</p>
+    </section>
+
+    <section class="card" aria-labelledby="links">
+      <h2 id="links">Links úteis</h2>
+      <ul>
+        <li><a href="https://redufe.github.io/bibliaemlouvor-termos/termos.html" rel="noopener">Termos de Uso e Política de Privacidade</a></li>
+        <li><a href="https://bibliaemlouvor.com.br" rel="noopener">Site oficial</a></li>
+      </ul>
+    </section>
+
+    <footer class="small">
+      Última atualização: 25 ago 2025 • © Bíblia em Louvor – Renan Dutra Ferreira
+    </footer>
+  </div>
+</body>
+</html>
